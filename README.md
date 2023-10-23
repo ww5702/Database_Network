@@ -118,3 +118,18 @@ HTTP method를 통해 자원의 CRUD operation을 적용
 
 ## RESTful
 REST 아키텍쳐 제약 조건을 준수하는 프로그래밍 인터페이스   
+
+
+***
+# 인터넷 주소창에 github.com을 치면 생기는일   
+1. 사용자가 브라우저에 domain name(github.com)을 입력
+2. 사용자가 요청한 URL에 domain name 부분을 DNS 서버에서 검색한다. 그리고 이를 ip주소로 변환하여 전달한다.
+3. 페이지 URL정보와 IP주소를 이용하여 HTTP 요청 메시지를 생성하고, 이렇게 생성된 HTTP메시지는 TCP protocol을 통해 해당 IP주소의 컴퓨터로 이동
+4. 도착한 HTTP 요청 메시지는 HTTP protocol을 통해 웹 페이지 URL정보로 변환되고, 응답으로 데이터를 전달한다
+5. 이러한 데이터는 다시 HTTP protocol을 통해 HTTP 응답 메시지가 되고, TCP protocol을 통해 사용자의 컴퓨터로 전송된다.
+6. 웹 브라우저는 이를 데이터로 변환하여 사용자가 볼 수 있게 한다.   
+
+   
+Domain Name = 어떤 네트워크의 어떤 컴퓨터인지를 구분하기 위한 식별번호의 주소를 사람들이 접근하기 용이한 문자로 변경한것   
+DNS 서버 = 이 Domain name을 IP주소로 변환해주는 시스템(서비스)를 DNS 서버라고 한다.   
+***
